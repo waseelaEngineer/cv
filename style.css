@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+#locate{
+    position: fixed;
+    color: white;
+    background-color: rgb(108, 0, 196);
+    padding: 10px 40px;
+    border-radius: 0px 0px 10px 10px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 99;
+}
+.meetcontainer{
+    background:linear-gradient(black,rgb(15, 0, 43));
+    width: 100%;
+    padding: 100px 0px 100px 0px ;
+}
+.purple{
+    color: rgb(108, 0, 196);
+    font-size: 40px;
+    font-weight: 600;
+    width: 80%;
+    margin-left: 10%;
+}
+.intro{
+    font-size: 30px;
+    font-weight: 500; 
+    color: rgb(139, 139, 139);
+}
+.infocontainer{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px gray;
+    padding-bottom: 100px;
+}
+#pic1{
+    width: 20%;
+    position: absolute;
+    margin-top: 250px;
+    left: 65%;
+}
+#pic2{
+    width: 20%;
+    position: absolute;
+    margin-top: 1010px;
+    left: 65%;
+}
+#pic3{
+    width: 20%;
+    position: absolute;
+    margin-top: 1780px;
+    left: 65%;
+}
+.projectp{
+    color: rgb(104, 104, 104);
+    font-size: 30px; 
+    font-weight: 500;
+    margin-left: 10%;
+    width: 40%;
+}
+.livebtn{
+    padding: 10px 30px;
+    background-color: rgb(108, 0, 196);
+    margin-left: 10%;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.repobtn{
+    padding: 10px 30px;
+    background-color: rgb(3, 83, 0);
+    margin-left: 2%;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.me{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin-top: 350px;
+}
+.quotecontainer{
+    width: 100%;
+    background-color: rgb(4, 0, 29);
+    margin-top: 100px;
+}
+.quote{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 55%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.paragraph{
+    color: rgb(104, 104, 104);
+    font-size: 30px; 
+    font-weight: 500;
+    margin-left: 10%;
+    width: 50%;
+}
+.paragraphc{
+    color: rgb(104, 104, 104);
+    font-size: 30px; 
+    font-weight: 500;
+    margin-left: 10%;
+    width: 90%;
+}
+.sillouette{
+    position: absolute;
+    width: 20%;
+    margin-left: 65%;
+    margin-top: 200px;
+}
+.skillsimg{
+    width: 70%;
+}
+.flourish{
+    width: 70%;
+    margin-left: 15%;
+}
+.bottom{
+    margin-top: 100px;
+    width: 100%;
+    background:linear-gradient(rgb(15, 0, 43),black);
+    padding-top: 70px;
+}
+.contact{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(108, 0, 196);
+    font-weight: 800;
+}
+.contactinfo{
+    color: white;
+    font-size: 25px;
+    margin-left: 20%;
+    font-weight: 600;
+}
+a{
+    color: white;
+}
+.emoji{
+    top: 77px;
+    margin-left: 35%;
+    position: absolute;
+    width: 100px;
+    font-size: 50px;
+    animation: wave 3s;
+    animation-iteration-count: infinite;
+}
+#pro1{
+    font-size: 50px; 
+    font-weight: 600;
+    margin-left: 10%;
+    padding-top: 400px;
+    width: 40%;
+
+    animation: inside 0.5s;
+    background-image: linear-gradient(45deg, #be47d6, #000000);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#pro2{
+    font-size: 50px; 
+    font-weight: 600;
+    margin-top: 500px;
+    margin-left: 10%;
+    width: 40%;
+
+    animation: inside 0.5s;
+    background-image: linear-gradient(45deg, #be47d6, #000000);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+#pro3{
+    font-size: 50px; 
+    font-weight: 600;
+    margin-top: 500px;
+    margin-left: 10%;
+    width: 40%;
+
+    animation: inside 0.5s;
+    background-image: linear-gradient(45deg, #be47d6, #000000);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.outline{
+    color: black; 
+    font-size: 50px; 
+    font-weight: 600;
+    padding-top: 200px;
+    margin-left: 10%;
+    width: 50%;
+}
+.outline2{
+    color: black; 
+    font-size: 50px; 
+    font-weight: 600;
+    margin-left: 10%;
+    width: 50%;
+}
+@keyframes inside{
+    0%{
+        opacity:0;
+    }
+    20%{
+        opacity:0.2;
+    }
+    40%{
+        opacity:0.4;
+    }
+    60%{
+        opacity:0.6;
+    }
+    80%{
+        opacity:0.8;
+    }
+    100%{
+        opacity:1;
+    }
+} 
+@keyframes wave{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    10%{
+        transform: rotateZ(20deg);
+    }
+    20%{
+        transform: rotateZ(-20deg);
+    }
+    30%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+        transform: rotateZ(0deg);
+    }
+} 
+@media only screen and (max-width:900px) {
+    #locate{
+        padding: 5px 20px;
+        font-size: 25px;
+    }
+    .purple{
+        font-size: 30px;
+    }
+    .intro{
+        font-size: 20px;
+    }
+    .emoji{
+        top: 90px;
+        margin-left: 70%;
+        font-size: 40px;
+    }
+    #pro1{
+        font-size: 20px; 
+        font-weight: 600;
+        margin-left: 5%;
+        padding-top: 150px;
+        width: 50%;
+    }
+    #pro2{
+        font-size: 20px; 
+        font-weight: 600;
+        margin-left: 5%;
+        margin-top: 150px;
+        width: 50%;
+    }
+    #pro3{
+        font-size: 20px; 
+        font-weight: 600;
+        margin-left: 5%;
+        margin-top: 150px;
+        width: 50%;
+    }
+    .projectp{
+        font-size: 15px; 
+        font-weight: 500;
+        margin-left: 5%;
+        width: 50%;
+    }
+    .livebtn{
+        padding: 5px 5px;
+        margin-left: 5%;
+        font-size: 10px;
+        border-radius: 7px;
+    }
+    .repobtn{
+        padding: 5px 5px;
+        margin-left: 2%;
+        font-size: 10px;
+        border-radius: 7px;
+    }
+    .infocontainer{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+    .me{
+        width: 60%;
+        margin-top: 150px;
+    }
+    .quotecontainer{
+        margin-top: 50px;
+    }
+    .quote{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+    .outline{
+        font-size: 20px; 
+        font-weight: 600;
+        padding-top: 70px;
+        margin-left: 5%;
+        width: 70%;
+    }
+    .outline2{
+        font-size: 20px; 
+        font-weight: 600;
+        margin-left: 5%;
+        width: 70%;
+    }
+    .paragraph{
+        font-size: 15px; 
+        font-weight: 500;
+        margin-left: 5%;
+        width: 60%;
+    }
+    .paragraphc{
+        font-size: 15px; 
+        font-weight: 500;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .sillouette{
+        width: 25%;
+        margin-left: 65%;
+        margin-top: 130px;
+    }
+    .flourish{
+        width: 96%;
+        margin-left: 2%;
+    }
+    .bottom{
+        margin-top: 50px;
+        padding-top: 50px;
+        overflow: hidden;
+    }
+    .contact{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .contactinfo{
+        font-size: 15px;
+        margin-left: 5%;
+        font-weight: 600;
+    }
+    #pic1{
+        width: 100px;
+        position: absolute;
+        margin-top: 140px;
+        left: 60%;
+    }
+    #pic2{
+        width: 110px;
+        position: absolute;
+        margin-top: 470px;
+        left: 59%;
+    }
+    #pic3{
+        width: 100px;
+        position: absolute;
+        margin-top: 815px;
+        left: 60%;
+    }
+}
